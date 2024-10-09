@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  </head>
+  <body>
+    <nav>
+      <h2 id="logo">Dan López</h2>
+      <ul class="navigation-items">
+        <li class="navigation-item"><a href="#about-me">About Me</a></li>
+        <li class="navigation-item"><a href="#projects">Projects</a></li>
+        <li class="navigation-item"><a href="#skills">Skills</a></li>
+        <li class="navigation-item"><a href='#contact'>Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="about-me">
+        <div class="about-me-container">
+          <div class="about-me-text-container">
+            <h2>About Me</h2>
+            <p style="text-align: justify;">
+              Hi! I'm Dan, a dedicated fullstack developer with a passion for building innovative solutions that empower people. 
+              I have expertise in data analysis, database management, and web development. 
+            </p>
+            <p style="text-align: justify;">
+              With a background in physical engineering from UAM Azcapotzalco and a Java fullstack bootcamp from Generation, I’ve contributed to multiple projects, working across all phases from design to implementation, utilizing tools like Figma, HTML, CSS, JavaScript, React, Springboot, and Bootstrap.
+            </p>
+            <p style="text-align: justify;">
+              I’m passionate about causes that make a difference, where I can combine my technical skills with my desire to create social impact. In addition to web development, I’m exploring Big Data and analytics, excited by the potential these areas hold for solving complex problems.
+            </p>
+          </div>
+          <img
+            src="/danportfolio.jpg"
+            alt="Dan Lopez photo"
+            class="portrait"
+          />
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Ecommerce She Blossoms</h3>
+          </summary>
+          <img
+            src="producto.png"
+            alt="She-Blossoms"
+            class="project-image"
+          />
+          <p class="project-description" style="text-align: justify;">
+            She Blossoms is an ecommerce platform designed to support and empower women entrepreneurs. 
+            The platform was developed using a modern tech stack, including HTML, CSS, JavaScript, React for the frontend, 
+            and Bootstrap was used to create responsive, user-friendly interfaces.
+
+The platform allows users to create and manage their own stores, list products, and track inventory. We also implemented user 
+authentication and role management systems to ensure a secure and personalized experience. Throughout the development process, 
+we followed the SCRUM methodology, ensuring iterative progress and adaptability to user feedback.
+          </p>
+          <p>You can access the project's github repository <a href="https://github.com/N00IA/She-Blossoms" target="_blank">here</a>.</p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Backend for the ecommerce</h3>
+          </summary>
+          <img
+            src="https://devcamp.es/wp-content/uploads/2022/12/MicrosoftTeams-image-150.png"
+            alt="An original model of part of the Analytical Engine"
+            class="project-image"
+          />
+          <p class="project-description" style="text-align: justify;">
+            The backend of the She Blossoms ecommerce project was developed using Java and the Spring Boot framework to create 
+            RESTful APIs. We utilized MySQL as the database for efficient data storage and management, while Hibernate was implemented 
+            for object-relational mapping (ORM) between the database and Java objects. For user authentication and authorization, 
+            JWT (JSON Web Tokens) was used to ensure secure access. 
+            The project used Git for version control, with GitHub as the repository platform.
+          </p>
+          <p>You can access the project's github repository <a href="https://github.com/YanisGar24/bd_sheblossoms/tree/main" target="_blank">here</a>.</p>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Database design</h3>
+          </summary>
+          <img
+            src="model_sb.png"
+            alt='database'
+            class="project-image"
+          />
+          <p class="project-description" style="text-align: justify;">
+            The database design for the She Blossoms ecommerce project was implemented using MySQL. 
+            The schema includes multiple tables for managing users, products, orders, and categories. 
+            Users are classified into roles such as buyers and sellers, with each seller associated with a store that 
+            can have various products. Products are organized into different categories, and each product has attributes such 
+            as price, stock quantity, and description. Relationships between tables are managed using foreign keys to ensure data integrity. 
+            Indexes were added to optimize query performance, and MySQL’s relational model was leveraged to enforce structured and normalized 
+            data storage.
+          </p>
+          <p>You can access the project's github repository <a href="https://github.com/danlg21/backend_sheblossoms" target="_blank">here</a>.</p>
+        </details>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <div id="skills-container">
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3-alt"></i>
+          <i class="fab fa-java"></i>
+          <i class="fab fa-js"></i>
+          <i class="fab fa-python"></i>
+          <i class="fab fa-react"></i>
+          <i class="fab fa-figma"></i>
+          <i class="fab fa-git"></i>
+          <i class="fab fa-chrome"></i>
+          <i class="fas fa-terminal"></i>
+          <i class="fas fa-database"></i>
+          <i class="fab fa-github"></i>
+          <i class="fab fa-jira"></i>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Have an interesting project? I would love to hear about it!</p>
+        <div>
+          <a href="https://www.linkedin.com/in/danialopezg21/" target="_blank"><i class="fab fa-linkedin icon"></i></a>
+          <a href="https://github.com/danlg21" target="_blank"><i class="fab fa-github icon"></i></a>
+          <a href="mailto:danialopezglez21@gmail.com"><i class="fas fa-envelope-square icon"></i></a>
+        </div>
+      </section>
+    </main>
+
+    <footer>"The most effective way to do it, is to do it."  <span class="heart">♥</span> Amelia Earhart</footer>
+  </body>
+</html>
